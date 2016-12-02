@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="vertical"
+    tools:Context=".MovieDetails"
+    >
+
+
+    <FrameLayout
+        android:id="@+id/activitydeatils"
+        android:name="com.example.hatem.movieapp.MovieDetailsFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.3"
+        />
+
+    </LinearLayout>
